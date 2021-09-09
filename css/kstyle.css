@@ -1,0 +1,46 @@
+body{
+	height: 100vh;
+	width: 100%;
+    display: grid;
+    align-items: center;
+}
+
+/* navbar */
+.nav-item {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* hakkimizda */
+.baslik-kurumsal{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #8bc525;
+  }
+
+  .big-banner{
+    background-image: url('../images/giris.jpg');
+    background-size: 100%;
+}
+
+.fresh-content{
+    background: linear-gradient(-45deg,#ec5252,#6e1a52);
+}
+
+#section{
+    font-family: Bebas Neue;
+}
+.baslik{
+    color: black;
+}
