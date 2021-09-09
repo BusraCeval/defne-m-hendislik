@@ -26,3 +26,13 @@ body {
     align-items: center;
     color: #878787;
   }
+
+  .modal-header {
+    background: #F7941E;
+    color: #fff;
+}
+
+.required:after {
+    content: "*";
+    color: red;
+}
