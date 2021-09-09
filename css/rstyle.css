@@ -28,11 +28,29 @@ body {
   }
 
   .modal-header {
-    background: #F7941E;
+    background: #8bc525;
     color: #fff;
+    font-family: Bebas Neue;
+    font-size: 25px;
 }
 
 .required:after {
     content: "*";
     color: red;
+}
+
+.hr{
+    color:#8bc525;
+	width: 90%;
+    
+}
+.ref{
+    font-family: Work Sans;
+}
+.modal-title{
+    font-size: 30px;
+}
+.btn{
+    background-color: #8bc525;
+    border: none;
 }
