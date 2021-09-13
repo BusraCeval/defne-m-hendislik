@@ -39,7 +39,28 @@ body::before {
 }
 .ref {
   font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #878887;
+  text-align: start;
+  border: none;
 }
+.border1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: #8bc525;
+  border: none;
+}
+
+.border2{
+  border: none;
+}
+
 .modal-title {
   font-size: 30px;
 }
@@ -128,6 +149,7 @@ body {
 /* .card-read-more {
   border-top: 1px solid #d4d4d4;
 } */
+
 /* .card-read-more a {
   text-decoration: none !important;
   padding: 10px;
