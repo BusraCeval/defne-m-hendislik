@@ -31,7 +31,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto p-5 me-4 mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
                     </li>
@@ -68,53 +68,39 @@
     </section>
     <!-- home -->
     <!-- hizmetler -->
-    <section id="home" class="p-3 pt-5 p-lg-0 pt-lg-5 text-center">
+    <section id="home" class="p-3 pt-5 p-lg-0 pt-lg-5 my-5 text-center">
         <h1 class="hizmet-baslik">HİZMETLERİMİZ</h1>
-        <p class="hizmet-description">Mauris varius, lorem aliquam tempor fermentum, lectus odio maximus tellus, sed
-            interdum tellus erat id
-            tellus.</p>
+        <p class="hizmet-description">
+            Sembolik olarak verdigimiz birkaç hizmetlerimizden yada daha fazlası hakkında bilgi almak istiyorsanız
+            tıklayın.
+        </p>
+        <a href="./hizmetler.html"><button class="btn mb-4">Daha Fazla...&raquo;</button></a>
     </section>
     <div class="container">
         <div class="row text-center g-3">
             <div class="col-md">
                 <div class="">
-                    <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                            dy=".3em">140x140</text>
-                    </svg>
+                    <img src="./images/ısıtma.jpg" class="rounded-circle" alt=""  width="140" height="140">
                 </div>
-                <h2 class="hizmet-baslik">Doğal Gaz</h2>
-                <p class="aciklama">Mauris varius, lorem aliquam tempor fermentum, lectus odio maximus tellus..</p>
-                <button class="btn mb-4">Daha Fazla...&raquo;</button>
+                <h2 class="hizmet-baslik">Isıtma Sistemleri</h2>
+                <p class="aciklama">Kullanım mekanlarının istenen sıcaklıkta tutulabilmesi için iç ortamdan dış ortama
+                    (çevreye) olan ısı kaybının karşılanması prensibi ile çalışan sistemlerdir.</p>
+                <!-- <a href="./hizmetler.html"><button class="btn mb-4">Daha Fazla...&raquo;</button></a> -->
             </div><!-- /.col-md -->
             <div class="col-md">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                        dy=".3em">140x140</text>
-                </svg>
+                <img src="./images/soğutma.jpg" class="rounded-circle" alt=""  width="140" height="140">
 
-                <h2 class="hizmet-baslik">Tesisat</h2>
-                <p class="aciklama">Mauris varius, lorem aliquam tempor fermentum, lectus odio maximus tellus.</p>
-                <button class="btn mb-4">Daha Fazla...&raquo;</button>
+                <h2 class="hizmet-baslik">Soğutma Sistemleri</h2>
+                <p class="aciklama">Serinletme ve soğutma gibi etki yaratan insanları ferahlatan ve serinleten
+                    sistemlerdir.</p>
+                <!-- <a href="./hizmetler.html"><button class="btn mb-4">Daha Fazla...&raquo;</button></a> -->
             </div><!-- /.col-md -->
             <div class="col-md">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777"
-                        dy=".3em">140x140</text>
-                </svg>
+                <img src="./images/sıhhi-tesisat.jpg" class="rounded-circle" alt=""  width="140" height="140">
 
-                <h2 class="hizmet-baslik">Mekanik</h2>
-                <p class="aciklama">Mauris varius, lorem aliquam tempor fermentum, lectus odio maximus tellus.</p>
-                <button class="btn mb-4">Daha Fazla...&raquo;</button>
+                <h2 class="hizmet-baslik">Sıhhi Tesisat</h2>
+                <p class="aciklama">Kaynaktan alınan suyun her yapıya temiz olarak ulaştırılıp pis suyun boşaltılması ve
+                    kullanılan pis suyun dışarı atılması için gereken boru hatlarıdır.</p>
             </div><!-- /.col-md -->
         </div><!-- /.row -->
         <!-- hizmetler -->
@@ -125,9 +111,12 @@
                 <div class="d-sm-flex align-items-center justify-content-between">
                     <div>
                         <p class="hakkimizda-baslik px-3 float-end">HAKKIMIZDA</p>
-                        <p class="hakkimizda-description px-3 float-end">Mauris varius, lorem aliquam tempor fermentum,
-                            lectus odio maximus
-                            tellus, lorem aliquam tempor fermentum.</p>
+                        <p class="hakkimizda-description px-3 float-end">
+                            2013 yılından beri faaliyet göstermektedir. Doğalgaz ile hizmet vermeye
+                            başladı ve sonrasında ısıtma sistemlerine çözüm ortağı oldu.
+                            Okul, spor kompleksi, hastane, gümrük müdürlükleri, belediye hizmet binaları gibi
+                            yerlerde hizmet vermekteyiz.
+                        </p>
                     </div>
                     <img class="img-fluid w-50 d-none d-md-block" src="./images/hakkimizda.jpg" alt="" />
                 </div>
@@ -156,38 +145,41 @@
 
         <!-- İletişim -->
         <section id="home" class="p-3 p-lg-0 pt-lg-3 text-sm-start">
-        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-            <div class="row align-items-center g-lg-5 py-5">
-              <div class="col-lg-7 text-center text-lg-start">
-                <div class="contact-map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.4171700880183!2d37.32430925145345!3d37.04754076133715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1531e04458ccecc7%3A0x18746dcc4dc8205e!2sDefne%20M%C3%BChendislik!5e0!3m2!1sen!2str!4v1631025236256!5m2!1sen!2str"
-                        width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+                <div class="row align-items-center g-lg-5 py-5">
+                    <div class="col-lg-7 text-center text-lg-start">
+                        <div class="contact-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.4171700880183!2d37.32430925145345!3d37.04754076133715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1531e04458ccecc7%3A0x18746dcc4dc8205e!2sDefne%20M%C3%BChendislik!5e0!3m2!1sen!2str!4v1631025236256!5m2!1sen!2str"
+                                width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-10 mx-auto col-lg-5">
+                        <form class="p-4 p-md-5 border rounded-3 bg-light">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="Adınız Soyadınız">
+                                <label for="floatingInput">Adınız Soyadınız</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control" id="floatingPassword"
+                                    placeholder="Password">
+                                <label for="floatingPassword">Email</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Mesaj</label>
+                            </div>
+                            <button class="w-100 btn btn-lg btn-primary" type="submit">Gönder</button>
+                            <hr class="my-4">
+                            <small class="text-muted">*Sizinle email yoluyla iletişime geçilecektir.</small>
+                        </form>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-10 mx-auto col-lg-5">
-                <form class="p-4 p-md-5 border rounded-3 bg-light">
-                  <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="Adınız Soyadınız">
-                    <label for="floatingInput">Adınız Soyadınız</label>
-                  </div>
-                  <div class="form-floating mb-3">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Email</label>
-                  </div>
-                  <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Mesaj</label>
-                  </div>
-                  <button class="w-100 btn btn-lg btn-primary" type="submit">Gönder</button>
-                  <hr class="my-4">
-                  <small class="text-muted">Email yolu ile size iletişime geçilecektir.</small>
-                </form>
-              </div>
             </div>
-          </div>
         </section>
-         <!-- İletişim -->
+        <!-- İletişim -->
 
         <!-- footer -->
         <div class="d-flex justify-content-between g-5 p-4 my-4 border-top" id="footer">
