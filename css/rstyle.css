@@ -32,6 +32,12 @@ body::before {
   font-family: Bebas Neue;
   font-size: 25px;
 }
+.modal-header1 {
+  background: #8bc525;
+  color: #fff;
+  font-family: Bebas Neue;
+  font-size: 25px;
+}
 
 .hr {
   color: #8bc525;
@@ -64,6 +70,11 @@ body::before {
 .modal-title {
   font-size: 30px;
 }
+
+.modal-title1 {
+  font-size: 30px;
+}
+
 .btn {
   background-color: #8bc525;
   border: none;
