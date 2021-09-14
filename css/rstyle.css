@@ -81,6 +81,8 @@ body::before {
   color: black;
   font-family: Work Sans;
 }
+
+/*card*/
 html,
 body {
   -moz-box-sizing: border-box;

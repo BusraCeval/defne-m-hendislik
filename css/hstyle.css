@@ -1,28 +1,78 @@
 body {
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    align-items: center;
-  }
-  
-  /* navbar */
-  .nav-item {
-    font-family: Bebas Neue;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-  }
-  /* footer */
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  align-items: center;
+}
+
+/* navbar */
+.nav-item {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+/* footer */
 #footer {
-    font-family: Bebas Neue;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    color: #878787;
-  }
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #878787;
+}
+
+/*card*/
+.h1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  color: #8bc525;
+}
+.number {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin-right: 20px;
+}
+.li {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  align-items: center;
+  color: #878787;
+}
+.alt-baslik{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  align-items: center;
+  color: #878787;
+}
+.text-small{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  align-items: center;
+  color: #878787;
+}
