@@ -59,7 +59,7 @@ body {
   align-items: center;
   color: #878787;
 }
-.alt-baslik{
+.alt-baslik {
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
@@ -68,11 +68,18 @@ body {
   align-items: center;
   color: #878787;
 }
-.text-small{
+.text-small {
   font-family: Work Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   align-items: center;
   color: #878787;
+}
+.hizmet {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 47px;
+  align-items: center;
+  color: #8bc525;
 }
