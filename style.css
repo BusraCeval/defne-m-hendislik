@@ -162,3 +162,7 @@ body {
   line-height: 80px;
   margin-top: 40px;
 }
+
+.opa{
+  opacity: 0.5;
+}
