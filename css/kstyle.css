@@ -1,7 +1,6 @@
 body {
   height: 100vh;
   width: 100%;
-  align-items: center;
 }
 
 /* navbar */
@@ -20,42 +19,33 @@ body {
   font-family: Bebas Neue;
   font-style: normal;
   font-weight: normal;
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 70px;
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
   color: #8bc525;
 }
 
-#section {
-  font-family: Bebas Neue;
+.baslik {
+  font-size: 80px;
+  color: #000;
 }
-/* .baslik {
-  color: black;
-} */
 
 .vmt-baslik {
-  font-family: Work Sans;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 23px;
+  font-family: Bebas Neue;
+  font-style: bold;
+  font-size: 30px;
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
   color: #8bc525;
 }
 .vmt-description {
-  font-family: Work Sans;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 19px;
+  font-size: 25px;
+  line-height: 40px;
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
-  line-height: 23px;
   color: #878787;
 }
 /* footer */
@@ -83,4 +73,17 @@ body {
   font-family: Bebas Neue;
   color: #000;
   font-size: 100px;
+}
+/*hakkımızda*/
+.hakkimizda-baslik{
+  color: #8bc525;
+  font-family: Bebas Neue;
+  font-size: 40px;
+}
+
+.lead {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #878787;
+  font-size: 25px;
+  line-height: 40px;
 }

@@ -32,8 +32,8 @@ body::before {
   font-family: Bebas Neue;
   font-style: bolder;
   font-weight: normal;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 30px;
+  line-height: 50px;
   align-items: center;
   color: #000;
   text-shadow: black;
@@ -42,7 +42,7 @@ body::before {
 }
 
 .description {
-  font-family: Work Sans;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-style: normal;
   font-weight: 530;
   font-size: 20px;
@@ -57,34 +57,48 @@ body::before {
 /* hizmetler */
 .btn {
   background: #8bc525;
-  font-size: 13px;
+  font-size: 15px;
+  color: #878787;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
 }
 .hizmet-baslik {
   color: #8bc525;
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.hizmet-baslik1{
+  color: #8bc525;
+  font-family: Bebas Neue;
+  font-size: 30px;
+  margin-top: 20px;
 }
 .aciklama {
-  font-family: Work Sans;
-  font-size: 16px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
   color: #878787;
 }
 .hizmet-description {
   color: #878787;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
 }
 
 /* hakkimizda */
 .hakkimizda-baslik {
-  font-family: Work Sans;
-  font-style: normal;
+  font-family: Bebas Neue;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 40px;
   display: flex;
   align-items: center;
   text-align: right;
   color: #8bc525;
 }
 .hakkimizda-description {
-  font-family: Work Sans;
-  font-size: 16px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
   display: flex;
   align-items: center;
   text-align: right;
@@ -132,6 +146,7 @@ body {
   width: 100%;
   display: grid;
   align-items: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .contact-map {
@@ -150,13 +165,14 @@ body {
   max-width: 100%; /* Maximum width */
   margin: 0 auto ;/* Center it */
   opacity: 0.9;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .centered {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: Amatic SC;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #fff;
   font-size: 80px;
   line-height: 80px;
