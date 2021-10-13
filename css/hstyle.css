@@ -30,53 +30,51 @@ body {
 
 /*card*/
 .h1 {
-  font-family: Work Sans;
+  font-family: "Prompt", sans-serif;
   font-style: normal;
-  font-weight: 300;
-  font-size: 40px;
+  font-weight: bold;
+  font-size: 30px;
   line-height: 47px;
   display: flex;
   align-items: center;
   color: #8bc525;
 }
 .number {
-  font-family: Work Sans;
-  font-style: normal;
-  font-weight: 300;
+  font-family: "Prompt", sans-serif;
+  font-style: bolder;
   font-size: 45px;
   line-height: 50px;
   display: flex;
   align-items: center;
   text-align: center;
   color: #000000;
-  margin-right: 20px;
+  margin-right: 13px;
 }
 .li {
-  font-family: Work Sans;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Prompt", sans-serif;
+  font-style: bold;
   font-size: 25px;
   line-height: 30px;
   align-items: center;
   color: #878787;
 }
 .alt-baslik {
-  font-family: Work Sans;
+  font-family: "Prompt", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 17px;
+  line-height: 28px;
   align-items: center;
-  color: #878787;
+  color: #878787ea;
 }
 .text-small {
-  font-family: Work Sans;
+  font-family: "Prompt", sans-serif;
   font-size: 12px;
   align-items: center;
-  color: #878787;
+  color: #878787a6;
 }
 .hizmet { 
-  font-family: Work Sans;
+  font-family: "Prompt", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 40px;

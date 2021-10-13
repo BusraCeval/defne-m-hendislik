@@ -42,7 +42,7 @@ body::before {
 }
 
 .description {
-  font-family: Work Sans;
+  font-family: "Prompt", sans-serif;
   font-style: normal;
   font-weight: 530;
   font-size: 20px;
@@ -57,7 +57,7 @@ body::before {
   background: #8bc525;
   font-size: 15px;
   color: #878787;
-  font-family: Work Sans;
+  font-family: "Prompt", sans-serif;
   font-weight: bold;
 }
 .hizmet-baslik {
@@ -73,13 +73,13 @@ body::before {
   margin-top: 20px;
 }
 .aciklama {
-  font-family: Work Sans;
+  font-family: "Prompt", sans-serif;
   font-size: 25px;
   color: #878787;
 }
 .hizmet-description {
   color: #878787;
-  font-family: Work Sans;
+  font-family: "Prompt", sans-serif;
   font-size: 25px;
 }
 
@@ -90,7 +90,7 @@ body::before {
   color: #8bc525;
 }
 .hakkimizda-description {
-  font-family: Work Sans;
+  font-family: "Prompt", sans-serif;
   font-size: 25px;
   display: flex;
   color: #878787;
@@ -185,4 +185,8 @@ hr#one {
 hr {
   background: #8bc525;
   position: relative;
+}
+
+.submit{
+  font-family: "Prompt", sans-serif;
 }

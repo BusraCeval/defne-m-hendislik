@@ -33,17 +33,17 @@ body {
 .vmt-baslik {
   font-family: Bebas Neue;
   font-style: bold;
-  font-size: 30px;
+  font-size: 35px;
   display: flex;
   align-items: center;
   color: #8bc525;
 }
 .vmt-description {
-  font-family: Work Sans;
+  font-family: "Prompt", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 23px;
+  line-height: 38px;
   display: flex;
   align-items: center;
   color: #878787;
@@ -69,7 +69,7 @@ body {
 .bottom-left{
   position: absolute;
   bottom: 8px;
-  left: 16px;
+  left: 20px;
   font-family: Bebas Neue;
   color: #000;
   font-size: 100px;
@@ -82,7 +82,7 @@ body {
 }
 
 .lead {
-  font-family: Work Sans;
+  font-family: "Prompt", sans-serif;
   color: #878787;
   font-size: 25px;
   line-height: 40px;
