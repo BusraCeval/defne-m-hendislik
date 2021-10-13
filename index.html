@@ -30,7 +30,9 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light p-3">
         <div class="container-fluid">
-            <img src="./images/defne-mühendislik.jpg" height="100px" alt="">
+            <a href="./index.html">
+                <img src="./images/defne-mühendislik.jpg" height="100px" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -79,12 +81,14 @@
     <!-- hizmetler -->
     <section id="hizmetler" class="p-3 pt-5 p-lg-0 pt-lg-5 my-5 text-center">
         <h1 class="hizmet-baslik">HİZMETLERİMİZ</h1>
+        <hr id="one" data-symbol="☂☂☂">
         <p class="hizmet-description">
             Aşağıya bıraktığımız hizmetlerimizden ya da daha fazlası hakkında bilgi almak istiyorsanız
             tıklayın.
         </p>
         <a href="./hizmetler.html"><button class="btn mb-4">Daha Fazla...&raquo;</button></a>
     </section>
+
     <div class="container">
         <div class="row text-center g-4">
             <div class="col-lg p-5">
@@ -114,14 +118,12 @@
         </div><!-- /.row -->
         <!-- hizmetler -->
 
-
-
         <!-- hakkımızda -->
         <div class="container">
             <div class="row featurette my-5 m-0 g-5 p-5">
                 <div class="col-lg-7">
-                    <p class="hakkimizda-baslik text-end">HAKKIMIZDA</p>
-                    <p class="lead hakkimizda-description text-end">
+                    <p class="hakkimizda-baslik">HAKKIMIZDA</p>
+                    <p class="lead hakkimizda-description">
                         2013 yılından beri faaliyet göstermektedir. Doğalgaz ile hizmet vermeye
                         başladı ve sonrasında ısıtma sistemlerine çözüm ortağı oldu.
                         Okul, spor kompleksi, hastane, gümrük müdürlükleri, belediye hizmet binaları gibi
@@ -159,18 +161,10 @@
         </div>
         <!-- referanslar -->
 
-
         <!-- İletişim -->
         <section id="home" class="p-3 p-lg-0 pt-lg-3 text-sm-start">
             <div class="container col-lg-10  col-lg-8 px-4 py-5">
                 <div class="row align-items-center  py-5">
-                    <!-- <div class="col-lg-7 text-center text-lg-start">
-                        <div class="contact-map">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3184.4171700880183!2d37.32430925145345!3d37.04754076133715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1531e04458ccecc7%3A0x18746dcc4dc8205e!2sDefne%20M%C3%BChendislik!5e0!3m2!1sen!2str!4v1631025236256!5m2!1sen!2str"
-                                width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
-                    </div> -->
                     <div class="col-md-10 mx-auto col-lg-12">
                         <div class="contact-map">
                             <iframe
@@ -184,16 +178,15 @@
                                 <label for="floatingInput">Adınız Soyadınız</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="password" class="form-control" id="floatingPassword"
-                                    placeholder="Password">
-                                <label for="floatingPassword">Email</label>
+                                <input type="text" class="form-control" id="description" placeholder="description">
+                                <label for="description">Mesaj</label>
                             </div>
                             <div class="form-floating mb-3">
                                 <input type="email" class="form-control" id="floatingInput"
                                     placeholder="name@example.com">
-                                <label for="floatingInput">Mesaj</label>
+                                <label for="floatingInput">Mail Adres</label>
                             </div>
-                            <button class="w-100 btn btn-lg btn-primary" type="submit">Gönder</button>
+                            <button class="w-100 btn btn-lg btn-primary" type="submit">GÖNDER</button>
                             <hr class="my-4">
                             <small class="text-muted">*Sizinle email yoluyla iletişime geçilecektir.</small>
                         </form>
