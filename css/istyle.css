@@ -36,7 +36,7 @@ li {
   font-family: Bebas Neue;
 }
 
-.iletisim{
+.iletisim {
   font-size: 55px;
 }
 
@@ -80,7 +80,7 @@ textarea {
   resize: vertical;
   font-size: 18px;
   color: #878787;
-  font-family: 'Prompt', sans-serif;
+  font-family: "Prompt", sans-serif;
   border-color: #8bc525;
 }
 
@@ -97,7 +97,7 @@ input[type="submit"] {
   border-radius: 10px;
   cursor: pointer;
   float: right;
-  font-family: 'Prompt', sans-serif;
+  font-family: "Prompt", sans-serif;
   font-size: 20px;
 }
 
