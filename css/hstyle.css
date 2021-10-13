@@ -10,11 +10,12 @@ body {
   font-family: Bebas Neue;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 24px;
   display: flex;
   align-items: center;
 }
+
 /* footer */
 #footer {
   font-family: Bebas Neue;
