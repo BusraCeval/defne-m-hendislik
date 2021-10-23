@@ -1,0 +1,161 @@
+/* footer */
+#footer {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #878787;
+}
+
+/* navbar */
+.nav-item {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+html {
+  height: 100%;
+  font-family: Bebas Neue;
+}
+
+body {
+  font-size: 16px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(139, 197, 37, 0.3037590105322343) 100%
+  );
+  background-size: 100% 600%;
+  min-height: 100%;
+  -webkit-animation: animation-bg 40s infinite;
+  animation: animation-bg 40s infinite;
+  animation-direction: alternate;
+  font-family: Bebas Neue;
+}
+
+@-webkit-keyframes animation-bg {
+  0% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+@keyframes animation-bg {
+  0% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
+.card {
+  margin-top: 5%;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border-radius: 15px;
+  border: none;
+  background-color: rgba(139, 197, 37, 0.3037590105322343);
+  font-family: Bebas Neue;
+}
+
+.btn {
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 110%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 18px 0 rgba(99, 99, 99, 0);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border-radius: 10px;
+  padding: 0.8rem 1.7rem;
+  border: none;
+  font-weight: bold;
+}
+
+.card:hover .btn {
+  opacity: 1;
+  top: 100%;
+  box-shadow: 0 4px 18px 0 rgba(138, 197, 37, 0.589);
+}
+
+.card:hover {
+  box-shadow: 0 4px 18px 0 rgba(138, 197, 37, 0.397);
+}
+
+h5 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  opacity: 0.3;
+  text-shadow: 1px 1px 2px black;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  font-family: "Leckerli One", cursive;
+  font-family: Bebas Neue;
+}
+
+.card:hover h5 {
+  opacity: 1;
+  font-size: 4rem;
+  font-family: Bebas Neue;
+  text-align: center;
+}
+
+.btn:hover {
+  color: white;
+  border: none;
+}
+
+div.col-12:nth-child(1) > .card:nth-child(1) > .btn:nth-child(3):hover {
+  background-color: #8bc525;
+}
+
+div.col-12:nth-child(2) > .card:nth-child(1) > .btn:nth-child(3):hover {
+  background-color: #8bc525;
+}
+
+div.col-12:nth-child(3) > .card:nth-child(1) > .btn:nth-child(3):hover {
+  background-color: #8bc525;
+}
+
+.card img {
+  filter: blur(0px);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  border-radius: 15px;
+}
+
+.card:hover img {
+  filter: blur(3px);
+}
+
+.ref1{
+  font-family: "Prompt", sans-serif;
+  font-size: 12px;
+}
